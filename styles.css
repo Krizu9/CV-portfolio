@@ -18,7 +18,7 @@ body {
 .container {
     position: relative;
     width: 90%;
-    max-width: 1000px;
+    max-width: 1300px;
     min-height: 1000px;
     margin: 50px;
     background-color: #fff;
@@ -28,6 +28,7 @@ body {
 }
 
 .container .left_Side {
+    min-width: 370px;
     position: relative;
     background: #003147;
     padding: 40px;
@@ -66,10 +67,9 @@ body {
 }
 
 .profileText h2 {
-    color: #fff;
+    color: #b6c3c9;
     font-size: 1.5em;
     margin-top: 5px;
-    text-transform: uppercase;
     text-align: center;
     font-weight: 600;
 }
@@ -77,4 +77,80 @@ body {
 .profileText span {
     font-size: 0.7em;
     font-weight: 100;
+}
+
+.contactInfo {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #b6c3c9;
+}
+
+.contactInfo ul li .text a {
+    display: inline-block;
+    text-decoration: none;
+    color: #b6c3c9;
+}
+
+.contactInfo ul li .text {
+    display: inline-block;
+    text-decoration: none;
+    color: #b6c3c9;
+}
+
+.title {
+    color: #b6c3c9;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Education {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.Education ul {
+    list-style: none;
+}
+
+.Education h3 {
+    position: relative;
+    color: #b6c3c9;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.Education h4 {
+    color: #b6c3c9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.Education h5 {
+    font-size: 1.2em;
+    color: #b6c3c9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
 }
